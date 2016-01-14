@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[大道至简]]></title>
+  
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2016-01-09T13:37:03.000Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name><![CDATA[Yulin.Wang]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Markdown教程]]></title>
+    <link href="http://yoursite.com/2016/01/09/Markdown%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2016/01/09/Markdown教程/</id>
+    <published>2016-01-09T12:52:21.000Z</published>
+    <updated>2016-01-09T13:37:03.000Z</updated>
+    <content type="html"><![CDATA[<ul>
+<li>极简 UI、漂亮的 Markdown 语法高亮、列表缩进优化，提供 5 种主题选择。除了支持基本的 Markdown 语法外，还支持以下 Markdown 扩展语法：<a id="more"></a>
+  – [x] 支持 Table<ul>
+<li>[x] 支持 TOC（Table Of Content）</li>
+<li>[x] 支持 MathJax</li>
+<li>[x] 编辑器内和实时预览都支持代码块（Fenced code block）语法高亮</li>
+<li>[x] 支持任务列表（Task lists）列表后再加<code>[ ]</code>或<code>[x]</code></li>
+<li>[x] 支持顺序图和流程图</li>
+<li>[x] 支持 Strikethrough、Underline、Superscript、Autolink、Footnote 等。</li>
+</ul>
+</li>
+<li>支持 Typewriter Scrolling（打机机滚动模式）<code>View</code> - <code>Typewriter Scrolling</code>。</li>
+<li>支持发布到：Wordrpess 博客、支持 Metaweblog API 的博客服务、Wordpress.com、Evernote 和印象笔记、Blogger、Scriptogr.am、Tumblr。请在 <code>Preferences</code> - <code>Publishing</code> 增加发布服务，然后点击软件右上角的分享按钮即可看到所增加的发布服务。</li>
+<li>支持即时预览并提供 6 种预览主题，其中二种和静态博客主题相对应，也就是说您在写博客时可以即时预览大概效果！所有主题效果都支持导出为 HTML、PDF。快捷键 <code>CMD + R</code> 打开即时预览窗口。</li>
+<li>编辑器和实时预览都支持大纲视图，长文档时跳转非常方便。</li>
+</ul>
+<h2 id="u8BBE_u8BA1_u4E3A_u4E24_u79CD_u6A21_u5F0F"><a href="#u8BBE_u8BA1_u4E3A_u4E24_u79CD_u6A21_u5F0F" class="headerlink" title="设计为两种模式"></a>设计为两种模式</h2><ul>
+<li>外部文档模式：用于新建、打开和编辑外部 Markdown 文档。也支持引入外部文件夹到 MWeb 中管理。</li>
+<li>文档库模式：用分类树管理文档，可以把文档设为多个分类，用于记笔记和静态网站生成。</li>
+</ul>
+<p><code>CMD + E</code> 或使用菜单 <code>View</code> - <code>Open External</code> 可打开外部文档模式。</p>
+<p><code>CMD + L</code> 或使用菜单 <code>View</code> - <code>Open Library</code> 可打开文档库。</p>
+<p>文档库模式的文档和外部模式引入文件夹中的文档都可以用拖放或粘贴插入图片并直接显示。<code>CMD + V</code> 粘贴为JPG格式，<code>CMD + Shift + V</code> 粘贴为PNG透明格式。</p>
+<p>外部模式引入 Octpress、Jekyll 等静态博客的文件夹后也支持拖放或粘贴插入图片和实时预览，详细请参考：<a href="http://zh.mweb.im/mweb-1.4-add-floder-octpress-support.html" target="_blank" rel="external">引入文件夹到 MWeb 中管理，支持 Octpress、Jekyll 等静态博客拖拽插入图片和实时预览</a></p>
+<h2 id="u6587_u6863_u5E93_u6A21_u5F0F_u7528_u4E8E_u8BB0_u7B14_u8BB0"><a href="#u6587_u6863_u5E93_u6A21_u5F0F_u7528_u4E8E_u8BB0_u7B14_u8BB0" class="headerlink" title="文档库模式用于记笔记"></a>文档库模式用于记笔记</h2><p>文档库模式使用分类树组织和管理文档，支持拖放或粘贴插入图片并直接显示，插入非图片则会生成连结。<br>支持把 Markdown 或文本文档导入到文档库，也支持把整个分类或者文档（可选多个）导出为 HTML、PDF、Markdown。</p>
+<p>更详细的信息请看：<a href="http://zh.mweb.im/mweb-document-library.html" target="_blank" rel="external">MWeb 文档库模式详细说明</a></p>
+<h2 id="u6587_u6863_u5E93_u6A21_u5F0F_u7528_u4E8E_u9759_u6001_u535A_u5BA2_u751F_u6210"><a href="#u6587_u6863_u5E93_u6A21_u5F0F_u7528_u4E8E_u9759_u6001_u535A_u5BA2_u751F_u6210" class="headerlink" title="文档库模式用于静态博客生成"></a>文档库模式用于静态博客生成</h2><p>一键把分类生成静态博客，目前可选二个主题，支持自定主题。只要填入 Disqus、多说提供的代码即可以为博客增加评论功能。可勾选让网站支持 MathJax 和顺序图、流程图。</p>
+<p>更详细的信息请看：<a href="http://zh.mweb.im/mweb-static-blog-generator.html" target="_blank" rel="external">MWeb 生成静态博客详细说明</a>、<a href="http://zh.mweb.im/mweb-1.4-static-blog-extension.html" target="_blank" rel="external">静态博客功能增强</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<ul>
+<li>极简 UI、漂亮的 Markdown 语法高亮、列表缩进优化，提供 5 种主题选择。除了支持基本的 Markdown 语法外，还支持以下 Markdown 扩展语法：]]>
+    
+    </summary>
+    
+      <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://yoursite.com/2016/01/09/hello-world/"/>
+    <id>http://yoursite.com/2016/01/09/hello-world/</id>
+    <published>2016-01-09T11:51:06.000Z</published>
+    <updated>2016-01-09T11:51:06.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start"><a href="#Quick_Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create_a_new_post"><a href="#Create_a_new_post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server"><a href="#Run_server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files"><a href="#Generate_static_files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites"><a href="#Deploy_to_remote_sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.]]>
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[新Blog启用测试]]></title>
+    <link href="http://yoursite.com/2016/01/09/%E6%96%B0Blog%E5%90%AF%E7%94%A8%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2016/01/09/新Blog启用测试/</id>
+    <published>2016-01-09T11:40:36.000Z</published>
+    <updated>2016-01-09T13:07:31.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Markdown 的目標是實現「易讀易寫」。<br>不過最需要強調的便是它的可讀性。一份使用 Markdown 格式撰寫的文件應該可以直接以純文字發佈，並且看起來不會像是由許多標籤或是格式指令所構成。<br>Markdown 的語法有個主要的目的：用來作為一種網路內容的<em>寫作</em>用語言。</p>
+</blockquote>
+<a id="more"></a>
+<h2 id="u672C_u6587_u7EA6_u5B9A"><a href="#u672C_u6587_u7EA6_u5B9A" class="headerlink" title="本文约定"></a>本文约定</h2><p>如果有写 <code>效果如下：</code>， 在 MWeb 编辑状态下只有用 <code>CMD + R</code> 预览才可以看效果。</p>
+<h2 id="u6807_u9898"><a href="#u6807_u9898" class="headerlink" title="标题"></a>标题</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"># &#31532;&#19968;&#32423;&#26631;&#39064; `&#60;h1&#62;` &#10;## &#31532;&#20108;&#32423;&#26631;&#39064; `&#60;h2&#62;` &#10;###### &#31532;&#20845;&#32423;&#26631;&#39064; `&#60;h6&#62;`</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<h1 id="u7B2C_u4E00_u7EA7_u6807_u9898__26lt_3Bh1_26gt_3B"><a href="#u7B2C_u4E00_u7EA7_u6807_u9898__26lt_3Bh1_26gt_3B" class="headerlink" title="第一级标题 &lt;h1&gt;"></a>第一级标题 <code>&lt;h1&gt;</code></h1><h2 id="u7B2C_u4E8C_u7EA7_u6807_u9898__26lt_3Bh2_26gt_3B"><a href="#u7B2C_u4E8C_u7EA7_u6807_u9898__26lt_3Bh2_26gt_3B" class="headerlink" title="第二级标题 &lt;h2&gt;"></a>第二级标题 <code>&lt;h2&gt;</code></h2><h6 id="u7B2C_u516D_u7EA7_u6807_u9898__26lt_3Bh6_26gt_3B"><a href="#u7B2C_u516D_u7EA7_u6807_u9898__26lt_3Bh6_26gt_3B" class="headerlink" title="第六级标题 &lt;h6&gt;"></a>第六级标题 <code>&lt;h6&gt;</code></h6><h2 id="u5F3A_u8C03"><a href="#u5F3A_u8C03" class="headerlink" title="强调"></a>强调</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">*&#36825;&#20123;&#25991;&#23383;&#20250;&#29983;&#25104;`&#60;em&#62;`*&#10;_&#36825;&#20123;&#25991;&#23383;&#20250;&#29983;&#25104;`&#60;u&#62;`_&#10;&#10;**&#36825;&#20123;&#25991;&#23383;&#20250;&#29983;&#25104;`&#60;strong&#62;`**&#10;__&#36825;&#20123;&#25991;&#23383;&#20250;&#29983;&#25104;`&#60;strong&#62;`__</span><br></pre></td></tr></table></figure>
+<p>在 MWeb 中的快捷键为： <code>CMD + U</code>、<code>CMD + I</code>、<code>CMD + B</code><br>效果如下：</p>
+<p><em>这些文字会生成<code>&lt;em&gt;</code></em><br><em>这些文字会生成<code>&lt;u&gt;</code></em></p>
+<p><strong>这些文字会生成<code>&lt;strong&gt;</code></strong><br><strong>这些文字会生成<code>&lt;strong&gt;</code></strong></p>
+<h2 id="u6362_u884C"><a href="#u6362_u884C" class="headerlink" title="换行"></a>换行</h2><p>四个及以上空格加回车。<br>如果不想打这么多空格，只要回车就为换行，请勾选：<code>Preferences</code> - <code>Themes</code> - <code>Translate newlines to &lt;br&gt; tags</code></p>
+<h2 id="u5217_u8868"><a href="#u5217_u8868" class="headerlink" title="列表"></a>列表</h2><h3 id="u65E0_u5E8F_u5217_u8868"><a href="#u65E0_u5E8F_u5217_u8868" class="headerlink" title="无序列表"></a>无序列表</h3><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* &#39033;&#30446;&#19968; &#26080;&#24207;&#21015;&#34920; `* + &#31354;&#26684;&#38190;`&#10;* &#39033;&#30446;&#20108;&#10;&#9;* &#39033;&#30446;&#20108;&#30340;&#23376;&#39033;&#30446;&#19968; &#26080;&#24207;&#21015;&#34920; `* + TAB + &#31354;&#26684;&#38190;`&#10;&#9;* &#39033;&#30446;&#20108;&#30340;&#23376;&#39033;&#30446;&#20108;</span><br></pre></td></tr></table></figure>
+<p>在 MWeb 中的快捷键为： <code>Option + U</code><br>效果如下：</p>
+<ul>
+<li>项目一 无序列表 <code>* + 空格键</code></li>
+<li>项目二<ul>
+<li>项目二的子项目一 无序列表 <code>* + TAB + 空格键</code></li>
+<li>项目二的子项目二</li>
+</ul>
+</li>
+</ul>
+<h3 id="u6709_u5E8F_u5217_u8868"><a href="#u6709_u5E8F_u5217_u8868" class="headerlink" title="有序列表"></a>有序列表</h3><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1. &#39033;&#30446;&#19968; &#26377;&#24207;&#21015;&#34920; `&#25968;&#23383; + . + &#31354;&#26684;&#38190;`&#10;2. &#39033;&#30446;&#20108; &#10;3. &#39033;&#30446;&#19977;&#10;&#9;1. &#39033;&#30446;&#19977;&#30340;&#23376;&#39033;&#30446;&#19968; &#26377;&#24207;&#21015;&#34920; `&#25968;&#23383; + . + TAB + &#31354;&#26684;&#38190;`&#10;&#9;2. &#39033;&#30446;&#19977;&#30340;&#23376;&#39033;&#30446;&#20108;</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<ol>
+<li>项目一 有序列表 <code>数字 + . + 空格键</code></li>
+<li>项目二 </li>
+<li>项目三<ol>
+<li>项目三的子项目一 有序列表 <code>数字 + . + TAB + 空格键</code></li>
+<li>项目三的子项目二</li>
+</ol>
+</li>
+</ol>
+<h3 id="u4EFB_u52A1_u5217_u8868_uFF08Task_lists_uFF09"><a href="#u4EFB_u52A1_u5217_u8868_uFF08Task_lists_uFF09" class="headerlink" title="任务列表（Task lists）"></a>任务列表（Task lists）</h3><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">- [ ] &#20219;&#21153;&#19968; &#26410;&#20570;&#20219;&#21153; `- + &#31354;&#26684; + [ ]`&#10;- [x] &#20219;&#21153;&#20108; &#24050;&#20570;&#20219;&#21153; `- + &#31354;&#26684; + [x]`</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<ul>
+<li>[ ] 任务一 未做任务 <code>- + 空格 + [ ]</code></li>
+<li>[x] 任务二 已做任务 <code>- + 空格 + [x]</code></li>
+</ul>
+<h2 id="u56FE_u7247"><a href="#u56FE_u7247" class="headerlink" title="图片"></a>图片</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![GitHub set up](http://zh.mweb.im/asset/img/set-up-git.gif)&#10;&#26684;&#24335;: ![Alt Text](url)</span><br></pre></td></tr></table></figure>
+<p><code>Control + Shift + I</code> 可插入Markdown语法。<br>如果是 MWeb 的文档库中的文档，还可以用拖放图片、<code>CMD + V</code> 粘贴、<code>CMD + Option + I</code> 导入这三种方式来增加图片。<br>效果如下：</p>
+<p><img src="http://zh.mweb.im/asset/img/set-up-git.gif" alt="GitHub set up"></p>
+<h2 id="u94FE_u63A5"><a href="#u94FE_u63A5" class="headerlink" title="链接"></a>链接</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">email &#60;example@example.com&#62;&#10;[GitHub](http://github.com)&#10;&#33258;&#21160;&#29983;&#25104;&#36830;&#25509;  &#60;http://www.github.com/&#62;</span><br></pre></td></tr></table></figure>
+<p><code>Control + Shift + L</code> 可插入Markdown语法。<br>如果是 MWeb 的文档库中的文档，拖放或<code>CMD + Option + I</code> 导入非图片时，会生成连接。<br>效果如下：</p>
+<p>Email 连接： <a href="/&#x6d;&#97;&#x69;&#x6c;&#x74;&#x6f;&#58;&#101;&#x78;&#97;&#109;&#x70;&#x6c;&#x65;&#64;&#x65;&#x78;&#97;&#109;&#112;&#x6c;&#x65;&#46;&#99;&#111;&#109;">&#101;&#x78;&#97;&#109;&#x70;&#x6c;&#x65;&#64;&#x65;&#x78;&#97;&#109;&#112;&#x6c;&#x65;&#46;&#99;&#111;&#109;</a><br><a href="http://github.com" target="_blank" rel="external">连接标题Github网站</a><br>自动生成连接像： <a href="http://www.github.com/" target="_blank" rel="external">http://www.github.com/</a> 这样</p>
+<h2 id="u533A_u5757_u5F15_u7528"><a href="#u533A_u5757_u5F15_u7528" class="headerlink" title="区块引用"></a>区块引用</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#26576;&#26576;&#35828;:&#10;&#62; &#31532;&#19968;&#34892;&#24341;&#29992;&#10;&#62; &#31532;&#20108;&#34892;&#36153;&#29992;&#25991;&#23383;</span><br></pre></td></tr></table></figure>
+<p><code>Control + B</code> 可插入Markdown语法。<br>效果如下：</p>
+<p>某某说:</p>
+<blockquote>
+<p>第一行引用<br>第二行费用文字</p>
+</blockquote>
+<h2 id="u884C_u5185_u4EE3_u7801"><a href="#u884C_u5185_u4EE3_u7801" class="headerlink" title="行内代码"></a>行内代码</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#20687;&#36825;&#26679;&#21363;&#21487;&#65306;`&#60;addr&#62;` `code`</span><br></pre></td></tr></table></figure>
+<p><code>CMD + K</code> 可插入Markdown语法。<br>效果如下：</p>
+<p>像这样即可：<code>&lt;addr&gt;</code> <code>code</code></p>
+<h2 id="u591A_u884C_u6216_u8005_u4E00_u6BB5_u4EE3_u7801"><a href="#u591A_u884C_u6216_u8005_u4E00_u6BB5_u4EE3_u7801" class="headerlink" title="多行或者一段代码"></a>多行或者一段代码</h2><p>Markdown 语法：</p>
+<pre><code><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fancyAlert</span>(<span class="params">arg</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span>(arg) &#123;</span><br><span class="line">    $.facebox(&#123;div:<span class="string">'#foo'</span>&#125;)</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+</code></pre><p><code>CMD + Shift + K</code> 可插入Markdown语法。<br>效果如下：</p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fancyAlert</span>(<span class="params">arg</span>) </span>&#123;</span><br><span class="line">	<span class="keyword">if</span>(arg) &#123;</span><br><span class="line">		$.facebox(&#123;div:<span class="string">'#foo'</span>&#125;)</span><br><span class="line">	&#125;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="u987A_u5E8F_u56FE_u6216_u6D41_u7A0B_u56FE"><a href="#u987A_u5E8F_u56FE_u6216_u6D41_u7A0B_u56FE" class="headerlink" title="顺序图或流程图"></a>顺序图或流程图</h2><p>Markdown 语法：</p>
+<pre><code><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#24352;&#19977;-&#62;&#26446;&#22235;: &#22079;&#65292;&#23567;&#22235;&#20799;, &#20889;&#21338;&#23458;&#20102;&#27809;?&#10;Note right of &#26446;&#22235;: &#26446;&#22235;&#24867;&#20102;&#19968;&#19979;&#65292;&#35828;&#65306;&#10;&#26446;&#22235;--&#62;&#24352;&#19977;: &#24537;&#24471;&#21520;&#34880;&#65292;&#21738;&#26377;&#26102;&#38388;&#20889;&#12290;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">st=&#62;start: &#24320;&#22987;&#10;e=&#62;end: &#32467;&#26463;&#10;op=&#62;operation: &#25105;&#30340;&#25805;&#20316;&#10;cond=&#62;condition: &#30830;&#35748;&#65311;&#10;&#10;st-&#62;op-&#62;cond&#10;cond(yes)-&#62;e&#10;cond(no)-&#62;op</span><br></pre></td></tr></table></figure>
+</code></pre><p>效果如下（ <code>Preferences</code> - <code>Themes</code> - <code>Enable sequence &amp; flow chart</code> 才会看到效果 ）：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#24352;&#19977;-&#62;&#26446;&#22235;: &#22079;&#65292;&#23567;&#22235;&#20799;, &#20889;&#21338;&#23458;&#20102;&#27809;?&#10;Note right of &#26446;&#22235;: &#26446;&#22235;&#24867;&#20102;&#19968;&#19979;&#65292;&#35828;&#65306;&#10;&#26446;&#22235;--&#62;&#24352;&#19977;: &#24537;&#24471;&#21520;&#34880;&#65292;&#21738;&#26377;&#26102;&#38388;&#20889;&#12290;</span><br></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">st=&#62;start: &#24320;&#22987;&#10;e=&#62;end: &#32467;&#26463;&#10;op=&#62;operation: &#25105;&#30340;&#25805;&#20316;&#10;cond=&#62;condition: &#30830;&#35748;&#65311;&#10;&#10;st-&#62;op-&#62;cond&#10;cond(yes)-&#62;e&#10;cond(no)-&#62;op</span><br></pre></td></tr></table></figure>
+<p>更多请参考：<a href="http://bramp.github.io/js-sequence-diagrams/" target="_blank" rel="external">http://bramp.github.io/js-sequence-diagrams/</a>, <a href="http://adrai.github.io/flowchart.js/" target="_blank" rel="external">http://adrai.github.io/flowchart.js/</a></p>
+<h2 id="u8868_u683C"><a href="#u8868_u683C" class="headerlink" title="表格"></a>表格</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#31532;&#19968;&#26684;&#34920;&#22836; | &#31532;&#20108;&#26684;&#34920;&#22836;&#10;--------- | -------------&#10;&#20869;&#23481;&#21333;&#20803;&#26684; &#31532;&#19968;&#21015;&#31532;&#19968;&#26684; | &#20869;&#23481;&#21333;&#20803;&#26684;&#31532;&#20108;&#21015;&#31532;&#19968;&#26684;&#10;&#20869;&#23481;&#21333;&#20803;&#26684; &#31532;&#19968;&#21015;&#31532;&#20108;&#26684; &#22810;&#21152;&#25991;&#23383; | &#20869;&#23481;&#21333;&#20803;&#26684;&#31532;&#20108;&#21015;&#31532;&#20108;&#26684;</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<table>
+<thead>
+<tr>
+<th>第一格表头</th>
+<th>第二格表头</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容单元格 第一列第一格</td>
+<td>内容单元格第二列第一格</td>
+</tr>
+<tr>
+<td>内容单元格 第一列第二格 多加文字</td>
+<td>内容单元格第二列第二格</td>
+</tr>
+</tbody>
+</table>
+<h2 id="u5220_u9664_u7EBF"><a href="#u5220_u9664_u7EBF" class="headerlink" title="删除线"></a>删除线</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#21152;&#21024;&#38500;&#32447;&#20687;&#36825;&#26679;&#29992;&#65306; ~~&#21024;&#38500;&#36825;&#20123;~~</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<p>加删除线像这样用： <del>删除这些</del></p>
+<h2 id="u5206_u9694_u7EBF"><a href="#u5206_u9694_u7EBF" class="headerlink" title="分隔线"></a>分隔线</h2><p>以下三种方式都可以生成分隔线：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">***&#10;&#10;*****&#10;&#10;- - -</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<hr>
+<hr>
+<hr>
+<h2 id="MathJax"><a href="#MathJax" class="headerlink" title="MathJax"></a>MathJax</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#22359;&#32423;&#20844;&#24335;&#65306;&#10;$$&#9;x = \dfrac&#123;-b \pm \sqrt&#123;b^2 - 4ac&#125;&#125;&#123;2a&#125; $$&#10;&#10;\\[ \frac&#123;1&#125;&#123;\Bigl(\sqrt&#123;\phi \sqrt&#123;5&#125;&#125;-\phi\Bigr) e^&#123;\frac25 \pi&#125;&#125; =&#10;1+\frac&#123;e^&#123;-2\pi&#125;&#125; &#123;1+\frac&#123;e^&#123;-4\pi&#125;&#125; &#123;1+\frac&#123;e^&#123;-6\pi&#125;&#125;&#10;&#123;1+\frac&#123;e^&#123;-8\pi&#125;&#125; &#123;1+\ldots&#125; &#125; &#125; &#125; \\]&#10;&#10;&#34892;&#20869;&#20844;&#24335;&#65306; $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$</span><br></pre></td></tr></table></figure>
+<p>效果如下（<code>Preferences</code> - <code>Themes</code> - <code>Enable MathJax</code> 才会看到效果）：</p>
+<p>块级公式：<br>$$    x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a} $$</p>
+<p>\[ \frac{1}{\Bigl(\sqrt{\phi \sqrt{5}}-\phi\Bigr) e^{\frac25 \pi}} =<br>1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}}<br>{1+\frac{e^{-8\pi}} {1+\ldots} } } } \]</p>
+<p>行内公式： $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$</p>
+<h2 id="u811A_u6CE8_uFF08Footnote_uFF09"><a href="#u811A_u6CE8_uFF08Footnote_uFF09" class="headerlink" title="脚注（Footnote）"></a>脚注（Footnote）</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#36825;&#26159;&#19968;&#20010;&#33050;&#27880;&#65306;[^sample_footnote]</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<p>这是一个脚注：<a href="/这里是脚注信息">^sample_footnote</a></p>
+<h2 id="u6CE8_u91CA_u548C_u9605_u8BFB_u66F4_u591A"><a href="#u6CE8_u91CA_u548C_u9605_u8BFB_u66F4_u591A" class="headerlink" title="注释和阅读更多"></a>注释和阅读更多</h2><!-- comment -->
+<!-- more -->
+<p>Actions-&gt;Insert Read More Comment <em>或者</em> <code>Command + .</code><br><strong>注</strong> 阅读更多的功能只用在生成网站或博客时。</p>
+<h2 id="TOC"><a href="#TOC" class="headerlink" title="TOC"></a>TOC</h2><p>Markdown 语法：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[TOC]</span><br></pre></td></tr></table></figure>
+<p>效果如下：</p>
+<p>[TOC]</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>Markdown 的目標是實現「易讀易寫」。<br>不過最需要強調的便是它的可讀性。一份使用 Markdown 格式撰寫的文件應該可以直接以純文字發佈，並且看起來不會像是由許多標籤或是格式指令所構成。<br>Markdown 的語法有個主要的目的：用來作為一種網路內容的<em>寫作</em>用語言。</p>
+</blockquote>]]>
+    
+    </summary>
+    
+      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+</feed>
