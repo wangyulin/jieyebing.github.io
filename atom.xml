@@ -3,9 +3,9 @@
   <title><![CDATA[大道至简]]></title>
   <subtitle><![CDATA[随笔]]></subtitle>
   <link href="/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
+  <link href="http://wangyulin.wang/"/>
   <updated>2016-02-15T14:18:00.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://wangyulin.wang/</id>
   
   <author>
     <name><![CDATA[Yulin.Wang]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[Git常用小技巧(1)]]></title>
-    <link href="http://yoursite.com/2016/02/15/Git%E5%B8%B8%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7-1/"/>
-    <id>http://yoursite.com/2016/02/15/Git常用小技巧-1/</id>
+    <link href="http://wangyulin.wang/2016/02/15/Git%E5%B8%B8%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7-1/"/>
+    <id>http://wangyulin.wang/2016/02/15/Git常用小技巧-1/</id>
     <published>2016-02-15T13:06:38.000Z</published>
     <updated>2016-02-15T14:18:00.000Z</updated>
     <content type="html"><![CDATA[<p>  很多人都在使用Git，但其实发现周边有很多人偶尔相互也会问一些别人看来很细小的问题，但是就这个文档也会挡你好一整子。所以借此机会深入研究一下Git，也在此给大家分享一下。<br></p>
@@ -37,14 +37,14 @@
 <p>&emsp;&emsp;这里甚至之后的一段时间里，整理一下，分享在这里，也希]]>
     </summary>
     
-      <category term="Git" scheme="http://yoursite.com/tags/Git/"/>
+      <category term="Git" scheme="http://wangyulin.wang/tags/Git/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[自己的第一个在线Blog]]></title>
-    <link href="http://yoursite.com/2016/01/15/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BFBlog/"/>
-    <id>http://yoursite.com/2016/01/15/自己的第一个在线Blog/</id>
+    <link href="http://wangyulin.wang/2016/01/15/%E8%87%AA%E5%B7%B1%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%9C%A8%E7%BA%BFBlog/"/>
+    <id>http://wangyulin.wang/2016/01/15/自己的第一个在线Blog/</id>
     <published>2016-01-14T23:43:00.000Z</published>
     <updated>2016-01-15T14:30:19.000Z</updated>
     <content type="html"><![CDATA[<p>&emsp;&emsp;个人其实很早就想拥有一个自己的再现blog，自己的域名，自己有想法或者记录个人生活学习的点点滴滴，也了解过一些blog工具，在本地环境尝试过最多的就是wordpress，可是觉一直没有自己想要的感觉，markdown支持的不是特别好，周末在家闲着无聊，想起这事想看看还有什么只支持markdown的静态的工具，便了解到hexo，看官网文档尝试了一下感觉不错，而且在github很方便部署，目前暂时也可以不用花钱买服务器，很实用，买个自己的域名绑定。这方案听起来真心很不错。<br></p>
@@ -57,14 +57,14 @@
     <![CDATA[<p>&emsp;&emsp;个人其实很早就想拥有一个自己的再现blog，自己的域名，自己有想法或者记录个人生活学习的点点滴滴，也了解过一些blog工具，在本地环境尝试过最多的就是wordpress，可是觉一直没有自己想要的感觉，markdown支持的不是特别好，周末在家闲着无聊]]>
     </summary>
     
-      <category term="blog" scheme="http://yoursite.com/tags/blog/"/>
+      <category term="blog" scheme="http://wangyulin.wang/tags/blog/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Markdown教程]]></title>
-    <link href="http://yoursite.com/2016/01/09/Markdown%E6%95%99%E7%A8%8B/"/>
-    <id>http://yoursite.com/2016/01/09/Markdown教程/</id>
+    <link href="http://wangyulin.wang/2016/01/09/Markdown%E6%95%99%E7%A8%8B/"/>
+    <id>http://wangyulin.wang/2016/01/09/Markdown教程/</id>
     <published>2016-01-09T12:52:21.000Z</published>
     <updated>2016-01-09T13:37:03.000Z</updated>
     <content type="html"><![CDATA[<ul>
@@ -102,14 +102,14 @@
     
     </summary>
     
-      <category term="教程" scheme="http://yoursite.com/tags/%E6%95%99%E7%A8%8B/"/>
+      <category term="教程" scheme="http://wangyulin.wang/tags/%E6%95%99%E7%A8%8B/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2016/01/09/hello-world/"/>
-    <id>http://yoursite.com/2016/01/09/hello-world/</id>
+    <link href="http://wangyulin.wang/2016/01/09/hello-world/"/>
+    <id>http://wangyulin.wang/2016/01/09/hello-world/</id>
     <published>2016-01-09T11:51:06.000Z</published>
     <updated>2016-01-09T11:51:06.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
@@ -126,14 +126,14 @@
     <![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.]]>
     </summary>
     
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://wangyulin.wang/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[新Blog启用测试]]></title>
-    <link href="http://yoursite.com/2016/01/09/%E6%96%B0Blog%E5%90%AF%E7%94%A8%E6%B5%8B%E8%AF%95/"/>
-    <id>http://yoursite.com/2016/01/09/新Blog启用测试/</id>
+    <link href="http://wangyulin.wang/2016/01/09/%E6%96%B0Blog%E5%90%AF%E7%94%A8%E6%B5%8B%E8%AF%95/"/>
+    <id>http://wangyulin.wang/2016/01/09/新Blog启用测试/</id>
     <published>2016-01-09T11:40:36.000Z</published>
     <updated>2016-01-09T13:07:31.000Z</updated>
     <content type="html"><![CDATA[<blockquote>
@@ -187,7 +187,7 @@
 <h2 id="u94FE_u63A5"><a href="#u94FE_u63A5" class="headerlink" title="链接"></a>链接</h2><p>Markdown 语法：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">email &#60;example@example.com&#62;&#10;[GitHub](http://github.com)&#10;&#33258;&#21160;&#29983;&#25104;&#36830;&#25509;  &#60;http://www.github.com/&#62;</span><br></pre></td></tr></table></figure>
 <p><code>Control + Shift + L</code> 可插入Markdown语法。<br>如果是 MWeb 的文档库中的文档，拖放或<code>CMD + Option + I</code> 导入非图片时，会生成连接。<br>效果如下：</p>
-<p>Email 连接： <a href="/&#109;&#x61;&#x69;&#108;&#116;&#111;&#x3a;&#x65;&#120;&#x61;&#109;&#x70;&#x6c;&#x65;&#x40;&#x65;&#120;&#x61;&#x6d;&#112;&#x6c;&#101;&#46;&#x63;&#x6f;&#x6d;">&#x65;&#120;&#x61;&#109;&#x70;&#x6c;&#x65;&#x40;&#x65;&#120;&#x61;&#x6d;&#112;&#x6c;&#101;&#46;&#x63;&#x6f;&#x6d;</a><br><a href="http://github.com" target="_blank" rel="external">连接标题Github网站</a><br>自动生成连接像： <a href="http://www.github.com/" target="_blank" rel="external">http://www.github.com/</a> 这样</p>
+<p>Email 连接： <a href="/&#109;&#97;&#105;&#x6c;&#116;&#x6f;&#58;&#x65;&#120;&#x61;&#109;&#x70;&#108;&#x65;&#x40;&#x65;&#120;&#97;&#109;&#112;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;">&#x65;&#120;&#x61;&#109;&#x70;&#108;&#x65;&#x40;&#x65;&#120;&#97;&#109;&#112;&#108;&#x65;&#x2e;&#99;&#x6f;&#109;</a><br><a href="http://github.com" target="_blank" rel="external">连接标题Github网站</a><br>自动生成连接像： <a href="http://www.github.com/" target="_blank" rel="external">http://www.github.com/</a> 这样</p>
 <h2 id="u533A_u5757_u5F15_u7528"><a href="#u533A_u5757_u5F15_u7528" class="headerlink" title="区块引用"></a>区块引用</h2><p>Markdown 语法：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#26576;&#26576;&#35828;:&#10;&#62; &#31532;&#19968;&#34892;&#24341;&#29992;&#10;&#62; &#31532;&#20108;&#34892;&#36153;&#29992;&#25991;&#23383;</span><br></pre></td></tr></table></figure>
 <p><code>Control + B</code> 可插入Markdown语法。<br>效果如下：</p>
@@ -267,7 +267,7 @@
     
     </summary>
     
-      <category term="测试" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95/"/>
+      <category term="测试" scheme="http://wangyulin.wang/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
