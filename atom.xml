@@ -4,7 +4,7 @@
   <subtitle><![CDATA[随笔]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://yoursite.com/"/>
-  <updated>2016-01-15T14:30:19.000Z</updated>
+  <updated>2016-02-15T13:41:54.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Git常用小技巧(1)]]></title>
+    <link href="http://yoursite.com/2016/02/15/Git%E5%B8%B8%E7%94%A8%E5%B0%8F%E6%8A%80%E5%B7%A7-1/"/>
+    <id>http://yoursite.com/2016/02/15/Git常用小技巧-1/</id>
+    <published>2016-02-15T13:06:38.000Z</published>
+    <updated>2016-02-15T13:41:54.000Z</updated>
+    <content type="html"><![CDATA[<p>&emsp;&emsp;很多人都在使用Git，但其实发现周边有很多人偶尔相互也会问一些别人看来很细小的问题，但是就这个文档也会挡你好一整子。所以借此机会深入研究一下Git，也在此给大家分享一下。<br><br>&emsp;&emsp;这里甚至之后的一段时间里，整理一下，分享在这里，也希望大家提供宝贵意见。其实提供意见我这里目前也没有办法及时反馈给我，因为我的blog还没有留言功能-_-# <br></p>
+<h3 id="commit_u65F6_uFF0C_u63D0_u4EA4_u8BF4_u660E_u6CA1_u6709_u4E00_u6B21_u6027_u5199_u5230_u4F4D_uFF0C_u9700_u8981_u4FEE_u6539"><a href="#commit_u65F6_uFF0C_u63D0_u4EA4_u8BF4_u660E_u6CA1_u6709_u4E00_u6B21_u6027_u5199_u5230_u4F4D_uFF0C_u9700_u8981_u4FEE_u6539" class="headerlink" title="commit时，提交说明没有一次性写到位，需要修改"></a>commit时，提交说明没有一次性写到位，需要修改</h3><p>&emsp;&emsp;git commit回车都敲下去了，发现错别字、或者还有遗漏提交说明时，很多人都会在此执行一次修改之后的commit操作，其实也有非常简便的办法帮你修改最新提交的说明文字,甚至发现最新的一次commit提交说明有问题的时候，工作空间下的文件又有了新的修改也可以进行如下操作：<br></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit --amend</span><br></pre></td></tr></table></figure>
+<p>或<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git commit --amend -m &#34;&#8230;&#8230;&#34;</span><br></pre></td></tr></table></figure></p>
+<p>&emsp;&emsp;区别在于有<code>-m</code>,如果没有<code>-m</code>，则会进入提交说明编辑界面，修改原来的提交说明，修改直到满意为止。<br></p>
+<p>&emsp;&emsp;而且如果不是最新的commit也可以修改提交说明，这里涉及到变基操作，后续再写。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>&emsp;&emsp;很多人都在使用Git，但其实发现周边有很多人偶尔相互也会问一些别人看来很细小的问题，但是就这个文档也会挡你好一整子。所以借此机会深入研究一下Git，也在此给大家分享一下。<br><br>&emsp;&emsp;这里甚至之后的一段时间里，整理一下，分享]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[自己的第一个在线Blog]]></title>
@@ -160,7 +179,7 @@
 <h2 id="u94FE_u63A5"><a href="#u94FE_u63A5" class="headerlink" title="链接"></a>链接</h2><p>Markdown 语法：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">email &#60;example@example.com&#62;&#10;[GitHub](http://github.com)&#10;&#33258;&#21160;&#29983;&#25104;&#36830;&#25509;  &#60;http://www.github.com/&#62;</span><br></pre></td></tr></table></figure>
 <p><code>Control + Shift + L</code> 可插入Markdown语法。<br>如果是 MWeb 的文档库中的文档，拖放或<code>CMD + Option + I</code> 导入非图片时，会生成连接。<br>效果如下：</p>
-<p>Email 连接： <a href="/&#x6d;&#97;&#x69;&#108;&#116;&#111;&#x3a;&#x65;&#120;&#x61;&#109;&#112;&#108;&#x65;&#x40;&#x65;&#x78;&#x61;&#x6d;&#112;&#108;&#101;&#46;&#99;&#x6f;&#x6d;">&#x65;&#120;&#x61;&#109;&#112;&#108;&#x65;&#x40;&#x65;&#x78;&#x61;&#x6d;&#112;&#108;&#101;&#46;&#99;&#x6f;&#x6d;</a><br><a href="http://github.com" target="_blank" rel="external">连接标题Github网站</a><br>自动生成连接像： <a href="http://www.github.com/" target="_blank" rel="external">http://www.github.com/</a> 这样</p>
+<p>Email 连接： <a href="/&#x6d;&#97;&#x69;&#108;&#116;&#x6f;&#x3a;&#x65;&#120;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#64;&#101;&#120;&#x61;&#x6d;&#112;&#108;&#x65;&#46;&#x63;&#111;&#x6d;">&#x65;&#120;&#x61;&#x6d;&#x70;&#x6c;&#x65;&#64;&#101;&#120;&#x61;&#x6d;&#112;&#108;&#x65;&#46;&#x63;&#111;&#x6d;</a><br><a href="http://github.com" target="_blank" rel="external">连接标题Github网站</a><br>自动生成连接像： <a href="http://www.github.com/" target="_blank" rel="external">http://www.github.com/</a> 这样</p>
 <h2 id="u533A_u5757_u5F15_u7528"><a href="#u533A_u5757_u5F15_u7528" class="headerlink" title="区块引用"></a>区块引用</h2><p>Markdown 语法：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#26576;&#26576;&#35828;:&#10;&#62; &#31532;&#19968;&#34892;&#24341;&#29992;&#10;&#62; &#31532;&#20108;&#34892;&#36153;&#29992;&#25991;&#23383;</span><br></pre></td></tr></table></figure>
 <p><code>Control + B</code> 可插入Markdown语法。<br>效果如下：</p>
